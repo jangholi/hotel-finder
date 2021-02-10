@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-import Modal from '../modal/Modal'
 
 interface Props {
     hotel: {

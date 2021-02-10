@@ -89,7 +89,6 @@ class Map extends React.Component <any, State, Position> {
         const bottom = map.getBounds().getSouthWest().lat();
         const left = map.getBounds().getSouthWest().lng();
 
-        console.log('getMarkerData', getMarkerData())
         var params = {
             apiKey: 'yJM5qjqhQ1HUFvfPa7ya8ft1eSt5OTDzwjd8dsw04ck',
             in: `${left},${bottom},${right},${top}`,
@@ -97,7 +96,6 @@ class Map extends React.Component <any, State, Position> {
         }
         getMarkerData(params)
             .then((res) => {
-                console.log('this is getMarkerData res:', res);
                 const hotels:Array<Hotel> = deepClone(res.data?.results?.items);
 
                 hotels

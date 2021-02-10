@@ -28,26 +28,25 @@ class Header extends React.Component {
             header.classList.remove('fixed-header');
         }
     }
-  render() {
-    return (
-        <header className='header'>
-            <nav className='header_nav'>
-                <ul className='header_menu'>
-                    <li className='header_menu-item'>
-                        <a href='#'>
+
+    render() {
+        return (
+            <header className='header'>
+                <nav className='header_nav'>
+                    <ul className='header_menu'>
+                        <li className='header_menu-item'>
                             <img src={logo} alt='Logo'/>
-                        </a>
-                    </li>
-                    <li className='header_menu-item'>
-                        <button>
-                            <img src={burgerIcon} alt='Menu button'/>
-                        </button>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    );
-  }
+                        </li>
+                        <li className='header_menu-item'>
+                            <button>
+                                <img src={burgerIcon} alt='Menu button'/>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        );
+    }
 }
 
 export default Header;

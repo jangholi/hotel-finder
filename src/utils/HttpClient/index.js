@@ -25,7 +25,6 @@ export class HttpClient {
      */
     request(method, url, data, params) {
 
-        console.log('baseURL', this._baseURL)
         return Axios.request({
             baseURL: this._baseURL,
             method,
