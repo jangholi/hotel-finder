@@ -1,0 +1,57 @@
+.hotel_cards-item {
+    width: 280px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px;
+    background-color: #fff;
+    min-height: 226px;
+    position: relative;
+}
+.hotel_card-details {
+    display: flex;
+    margin-bottom: 15px;
+}
+.hotel_card-details--info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hotel_card-details--photo {
+    width: 40%;
+    margin-right: 15px;
+    min-height: 140px;
+}
+.hotel_card-details--photo img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+}
+.info_title {
+    font-weight: 700;
+    text-align: left;
+    font-size: 13px;
+}
+.info_distance {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+}
+.info_price {
+    font-size: 20px;
+    font-weight: 700;
+}
+.info_desc {
+    font-size: 11px;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+.card_button {
+    width: 100%;
+    height: 40px;
+    background-color: #F7941D;
+    color: #fff;
+    font-weight: 700;
+}
+

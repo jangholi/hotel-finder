@@ -1,0 +1,38 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    overflow: scroll;
+    height: 100vh;
+}
+.form-modal{
+    padding: 20px!important;
+}
+.form-modal label{
+    width: 100% !important;
+}
+.form-modal input{
+    width: 100% !important;
+    margin-bottom: 20px;
+    height: 36px;
+}
+.slick-list{
+    overflow-y: visible;
+}
+.btn{
+    padding: 10px;
+    border-radius: 3px;
+}
+.submit-form-btn{
+    background-color: cornflowerblue;
+    color: white;
+    margin-right: 3px;
+}
+.close-form-btn{
+    background-color: darkgray;
+    color: white;
+    margin-right: 3px;
+}

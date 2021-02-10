@@ -1,0 +1,24 @@
+.header {
+    height:55px;
+    background-color: #EBEAE6;
+    z-index: 1;
+}
+.header_nav {
+    padding: 0 17px;
+    width: 100%;
+    height: 100%;
+}
+.header_menu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
