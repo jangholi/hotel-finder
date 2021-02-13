@@ -5,8 +5,9 @@
     transform: translate(-50%, -50%);
     width: 600px;
     background-color: white;
-    overflow: scroll;
-    height: 100vh;
+    overflow: auto;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
 }
 .form-modal{
     padding: 20px!important;
