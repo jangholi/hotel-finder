@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hotel-finder/static/css/main.a08e8a99.chunk.css",
+    "main.css": "/hotel-finder/static/css/main.2ce57c5a.chunk.css",
     "main.js": "/hotel-finder/static/js/main.182a3f07.chunk.js",
     "main.js.map": "/hotel-finder/static/js/main.182a3f07.chunk.js.map",
     "runtime-main.js": "/hotel-finder/static/js/runtime-main.ed1cb712.js",
@@ -8,9 +8,9 @@
     "static/js/2.f870efc7.chunk.js": "/hotel-finder/static/js/2.f870efc7.chunk.js",
     "static/js/2.f870efc7.chunk.js.map": "/hotel-finder/static/js/2.f870efc7.chunk.js.map",
     "index.html": "/hotel-finder/index.html",
-    "precache-manifest.b1db1f196795e76b6376a314eeec9865.js": "/hotel-finder/precache-manifest.b1db1f196795e76b6376a314eeec9865.js",
+    "precache-manifest.e37e2b100d69a491c11d7a92df32b93b.js": "/hotel-finder/precache-manifest.e37e2b100d69a491c11d7a92df32b93b.js",
     "service-worker.js": "/hotel-finder/service-worker.js",
-    "static/css/main.a08e8a99.chunk.css.map": "/hotel-finder/static/css/main.a08e8a99.chunk.css.map",
+    "static/css/main.2ce57c5a.chunk.css.map": "/hotel-finder/static/css/main.2ce57c5a.chunk.css.map",
     "static/js/2.f870efc7.chunk.js.LICENSE.txt": "/hotel-finder/static/js/2.f870efc7.chunk.js.LICENSE.txt",
     "static/media/burger_icon.svg": "/hotel-finder/static/media/burger_icon.079652e9.svg",
     "static/media/home_icon-active.svg": "/hotel-finder/static/media/home_icon-active.a0fbf9bf.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ed1cb712.js",
     "static/js/2.f870efc7.chunk.js",
-    "static/css/main.a08e8a99.chunk.css",
+    "static/css/main.2ce57c5a.chunk.css",
     "static/js/main.182a3f07.chunk.js"
   ]
 }
